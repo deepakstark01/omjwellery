@@ -16,7 +16,8 @@
         <div class="container mx-auto py-6 px-4 flex justify-between items-center">
             <!-- Logo -->
             <div>
-                <img src="logo.png" alt="OM Jewellery Logo" class="h-12">
+                <img src="{{ url_for('static', filename='logo.png') }}" alt="OM Jewellery Logo" class="h-12">
+
             </div>
             <!-- Site Title and Description -->
             <div>
@@ -45,7 +46,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Product 4 -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md">
-                    <img src="product4.jpeg" alt="Product 4" class="w-full h-64 object-cover object-center">
+                    <img src="{{ url_for('static', filename="product4.jpeg") }}" alt="Product 4" class="w-full h-64 object-cover object-center">
                     <div class="p-6">
                         <h3 class="text-xl font-semibold text-gray-800">Rose Gold Engagement Ring</h3>
                         <p class="mt-2 text-gray-600">A symbol of everlasting love and commitment.</p>
@@ -53,7 +54,7 @@
                 </div>
                 <!-- Product 5 -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md">
-                    <img src="product5.jpeg" alt="Product 5" class="w-full h-64 object-cover object-center">
+                    <img src="{{ url_for('static', filename='product5.jpeg') }}"alt="Product 5" class="w-full h-64 object-cover object-center">
                     <div class="p-6">
                         <h3 class="text-xl font-semibold text-gray-800">Pearl Drop Earrings</h3>
                         <p class="mt-2 text-gray-600">Classic elegance that complements any outfit.</p>
@@ -61,7 +62,7 @@
                 </div>
                 <!-- Product 6 -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md">
-                    <img src="product6.jpeg" alt="Product 6" class="w-full h-64 object-cover object-center">
+                    <img src="{{ url_for('static', filename='product6.jpeg') }}"alt="Product 6" class="w-full h-64 object-cover object-center">
                     <div class="p-6">
                         <h3 class="text-xl font-semibold text-gray-800">Sapphire and Diamond Necklace</h3>
                         <p class="mt-2 text-gray-600">Exquisite craftsmanship for a statement piece.</p>
@@ -69,7 +70,7 @@
                 </div>
                 <!-- Product 7 -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md">
-                    <img src="product7.jpeg" alt="Product 7" class="w-full h-64 object-cover object-center">
+                    <img src="{{ url_for('static', filename='product7.jpeg') }}"alt="Product 7" class="w-full h-64 object-cover object-center">
                     <div class="p-6">
                         <h3 class="text-xl font-semibold text-gray-800">Ruby and Diamond Ring</h3>
                         <p class="mt-2 text-gray-600">Captivating beauty with vibrant gemstones.</p>
@@ -77,7 +78,7 @@
                 </div>
                 <!-- Product 8 -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md">
-                    <img src="product8.jpg" alt="Product 8" class="w-full h-64 object-cover object-center">
+                    <img src="{{ url_for('static', filename='product8.jpg') }}"alt="Product 8" class="w-full h-64 object-cover object-center">
                     <div class="p-6">
                         <h3 class="text-xl font-semibold text-gray-800">Platinum Wedding Band</h3>
                         <p class="mt-2 text-gray-600">Symbolize your commitment with timeless elegance.</p>
@@ -85,7 +86,7 @@
                 </div>
                 <!-- Product 9 -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md">
-                    <img src="product9.jpg" alt="Product 9" class="w-full h-64 object-cover object-center">
+                    <img src="{{ url_for('static', filename='logo.png') }}""product9.jpg" alt="Product 9" class="w-full h-64 object-cover object-center">
                     <div class="p-6">
                         <h3 class="text-xl font-semibold text-gray-800">Diamond Stud Earrings</h3>
                         <p class="mt-2 text-gray-600">Classic and versatile, perfect for any occasion.</p>
